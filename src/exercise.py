@@ -12,7 +12,7 @@ def main():
     if request in peoples_names:
       print(str(request + " was found!"))
     else:
-      print(str(request + "was not found!"))
+      print(str(request + " was not found!"))
 
 if __name__ == '__main__':
     main()
