@@ -8,7 +8,7 @@ def main():
       if(user_input == ""):
         break
 
-    request = (str(input("Search for? ")))
+    request = (str(input("Search for?")))
     if request in peoples_names:
       print(str(request + " was found!"))
     else:
